@@ -3,6 +3,7 @@ package main
 import "time"
 
 type Blogpost struct {
+	Id string
 	Title string
 	Subtitle string
 	Excerpt string
