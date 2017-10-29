@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="001bca3d-7df4-45e2-812f-02e8b462251b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/productRoutes.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/router.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/userRoutes.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/router.go" afterPath="$PROJECT_DIR$/routes/router.go" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,8 +32,8 @@
       <file leaf-file-name="router.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/router.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="252">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#14#63#0" expanded="true" />
               </folding>
@@ -42,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productRoutes.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/productRoutes.go">
+      <file leaf-file-name="userRoutes.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/userRoutes.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="162">
+              <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
               <folding>
                 <element signature="e#14#45#0" expanded="true" />
               </folding>
@@ -76,8 +75,9 @@
         <option value="$PROJECT_DIR$/models/product.go" />
         <option value="$PROJECT_DIR$/models/user.go" />
         <option value="$PROJECT_DIR$/routes/routes.go" />
-        <option value="$PROJECT_DIR$/routes/router.go" />
         <option value="$PROJECT_DIR$/routes/productRoutes.go" />
+        <option value="$PROJECT_DIR$/routes/router.go" />
+        <option value="$PROJECT_DIR$/routes/userRoutes.go" />
       </list>
     </option>
   </component>
@@ -180,12 +180,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509300232916</updated>
       <workItem from="1509300234575" duration="1613000" />
-      <workItem from="1509305662294" duration="6135000" />
+      <workItem from="1509305662294" duration="6425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7748000" />
+    <option name="totallyTimeSpent" value="8038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="863" height="1020" extended-state="0" />
@@ -278,8 +278,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/productRoutes.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/userRoutes.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
           <folding>
             <element signature="e#14#45#0" expanded="true" />
           </folding>
@@ -288,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/router.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#14#63#0" expanded="true" />
           </folding>
