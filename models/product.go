@@ -1,15 +1,15 @@
 package main
 
 type Product struct {
-	Id string
-	Name string
-	Description string
-	Specs map[string]string
-	Price int64
-	Feedback []string
-	Images [][]byte
-	Collections []string
-	Tags []string
+	Id string `json:"id"`
+	Name string `json:"name"`
+	Description string `json:"description"`
+	Specs map[string]string `json:"specs"`
+	Price int64 `json:"price"`
+	Feedback []string `json:"feedback"`
+	Images [][]byte `json:"images"`
+	Collections []string `json:"collections"`
+	Tags []string `json:"tags"`
 }
 
 type Products []Product
