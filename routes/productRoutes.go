@@ -3,10 +3,48 @@ package main
 import "github.com/gorilla/mux"
 
 func setProductRoutes(router *mux.Router) *mux.Router{
-	router.HandleFunc("/products", showProducts)
-	router.HandleFunc("/products", addProduct)
-	router.HandleFunc("/products/{id}", showProduct)
-	router.HandleFunc("/products/{id}", updateProduct)
-	router.HandleFunc("/products/{id}", deleteProduct)
+	for _, route := range userRoutes {
+		router.
+			Methods(route.Method).
+			Path(route.Pattern).
+			Name(route.Name).
+			Handler(route.HandlerFunc)
+	}
+
 	return router
+}
+
+var productRoutes = Routes{
+
+	Route{
+		"GetProducts",
+		"GET",
+		"/products",
+		GetProducts,
+	},
+	Route{
+		"GetProduct",
+		"GET",
+		"/products/{id}",
+		GetProduct,
+	},
+	Route{
+		"AddProduct",
+		"POST",
+		"/products",
+		AddProduct,
+	},
+	Route{
+		"EditProduct",
+		"PUT",
+		"/products/{id}",
+		EditProduct,
+	},
+	Route{
+		"DeleteProduct",
+		"DELETE",
+		"/products/{id}",
+		DeleteProduct,
+	},
+
 }
