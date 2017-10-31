@@ -3,7 +3,7 @@ package main
 import "github.com/gorilla/mux"
 
 func setProductRoutes(router *mux.Router) *mux.Router{
-	for _, route := range userRoutes {
+	for _, route := range productRoutes {
 		router.
 			Methods(route.Method).
 			Path(route.Pattern).

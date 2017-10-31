@@ -19,4 +19,5 @@ func NewRouter() *mux.Router {
 	router := mux.NewRouter().StrictSlash(true)
 	router = setProductRoutes(router)
 	router = setUserRoutes(router)
+	router = setBlogRoutes(router)
 }
