@@ -20,4 +20,5 @@ func NewRouter() *mux.Router {
 	router = setProductRoutes(router)
 	router = setUserRoutes(router)
 	router = setBlogRoutes(router)
+	router = setCollectionRoutes(router)
 }
