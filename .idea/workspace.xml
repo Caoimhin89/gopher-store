@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="001bca3d-7df4-45e2-812f-02e8b462251b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/blogRoutes.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/productRoutes.go" afterPath="$PROJECT_DIR$/routes/productRoutes.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/router.go" afterPath="$PROJECT_DIR$/routes/router.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/collectionRoutes.go" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/router.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -42,23 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userRoutes.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/userRoutes.go">
+      <file leaf-file-name="collectionRoutes.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/collectionRoutes.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="42" column="10" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="49" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blogRoutes.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/blogRoutes.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+            <state relative-caret-position="126">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
                 <element signature="e#14#45#0" expanded="true" />
               </folding>
@@ -92,6 +78,7 @@
         <option value="$PROJECT_DIR$/routes/productRoutes.go" />
         <option value="$PROJECT_DIR$/routes/blogRoutes.go" />
         <option value="$PROJECT_DIR$/routes/router.go" />
+        <option value="$PROJECT_DIR$/routes/collectionRoutes.go" />
       </list>
     </option>
   </component>
@@ -194,12 +181,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509300232916</updated>
       <workItem from="1509300234575" duration="1613000" />
-      <workItem from="1509305662294" duration="11439000" />
+      <workItem from="1509305662294" duration="12397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13052000" />
+    <option name="totallyTimeSpent" value="14010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="972" height="1020" extended-state="0" />
@@ -300,6 +287,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="e#14#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/blogRoutes.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#14#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/userRoutes.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -310,22 +317,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/blogRoutes.go">
+    <entry file="file://$PROJECT_DIR$/routes/collectionRoutes.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        <state relative-caret-position="126">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="e#14#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="e#14#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
