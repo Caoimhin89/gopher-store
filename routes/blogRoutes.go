@@ -1,9 +1,17 @@
 package main
 
-import "github.com/gorilla/mux"
+import (
+	"github.com/gorilla/mux"
+	"net/http"
+)
 
 func setBlogRoutes(router *mux.Router) *mux.Router{
 	for _, route := range blogRoutes {
+		var handler http.Handler
+
+		handler = route.HandlerFunc
+		handler = Logger(handler, route.Name)
+
 		router.
 			Methods(route.Method).
 			Path(route.Pattern).
